@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+/* BACKGROUND */
+
+html {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+#appContainer {
+    background: #0dc7ff;
+    background: linear-gradient(270deg, #00fab1, #a361ff, #0dc7ff);
+    background-size: 800% 800%;
+
+    -webkit-animation: dropmints-gradient-background 13s ease infinite;
+    -moz-animation: dropmints-gradient-background 13s ease infinite;
+    animation: dropmints-gradient-background 13s ease infinite;
+}
+
+@-webkit-keyframes dropmints-gradient-background {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes dropmints-gradient-background {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes dropmints-gradient-background {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+/* logo big main page */
+
+.biglogo {
+    width: 840px;
+}
