@@ -28,17 +28,21 @@ const IndexPage = () => (
           <img className="w-10 md:w-10 m-4" src={twitterLogo} alt="the twitter logo" />
         </a>
 
-        <form action="https://formspree.io/f/meqvrlan" method="POST" className="mb-12 md:mb-8 md:mr-16">
+        <form action="https://dropmints.us5.list-manage.com/subscribe/post?u=d004c2fcdc8f15b0a3bc37777&amp;id=16b05a1077" method="POST" className="mb-12 md:mb-8 md:mr-16">
           <div className="flex flex-col justify-center items-center">
             <div className="flex flex-col">
               <label className="mb-4 text-white text-xl font-bold" htmlFor="join-input">Sign up and stay in the loop.</label>
             </div>
             <div>
-              <input name="dropmintsform" id="join-input" type='text'  placeholder="email@example.com" className="bg-transparent border-solid border-2 border-white px-2 py-2 placeholder-gray-100 rounded-lg text-white focus:outline-none" required />
-              <button type="submit" className="ml-4 bg-transparent border-solid border-2 border-white px-2 py-2 rounded-lg shadow text-white focus:outline-white">Join</button>
+              <input name="EMAIL" id="join-input" type='text'  placeholder="email@example.com" className="bg-transparent border-solid border-2 border-white px-2 py-2 placeholder-gray-100 rounded-lg text-white focus:outline-none" required />
+              <div style={{position: "absolute;", left: "-5000px;"}} aria-hidden="true">
+                <input type="text" name="b_d004c2fcdc8f15b0a3bc37777_16b05a1077" tabIndex="-1" value="" readOnly />
+              </div>
+              <button type="submit" value="Subscribe" name="subscribe" className="ml-4 bg-transparent border-solid border-2 border-white px-2 py-2 rounded-lg shadow text-white focus:outline-white">Join</button>
             </div>
           </div>
         </form>
+
         
       </div>
 
